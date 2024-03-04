@@ -60,7 +60,7 @@ If the library is hosted at a git repository, e.g.https://github.com/GIT_USER_ID
 then install it via:
 
 ```shell
-    npm install GIT_USER_ID/GIT_REPO_ID --save
+    npm install CodeCrew24/authservice_javascript --save
 ```
 
 ### For browser
@@ -117,7 +117,7 @@ api.clientGet(username, password, callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost:3000/auth*
+All URIs are relative to *https://auth-service-latest.onrender.com/auth*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

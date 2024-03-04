@@ -1,9 +1,14 @@
 {
   "name": "auth_service",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This API provides token-based authentication for user registration, login, and client credential management. It ensures secure communication by utilizing tokens for authentication. Users can register with unique usernames and passwords, authenticate using client credentials, retrieve client IDs and secrets, and regenerate client credentials as needed. The API supports various user roles, including 'user', 'admin', 'moderator', 'guest', and 'superadmin'.",
-  "license": "Unlicense",
+  "license": "MIT",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeCrew24/authservice_javascript"
+  },
+  "homepage": "https://github.com/CodeCrew24",
   "scripts": {
     "build": "babel src -d dist",
     "prepare": "npm run build",
@@ -41,6 +46,10 @@
     "sinon": "^7.2.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "Readme.md",
+    "docs/"
+    
   ]
 }

@@ -33,11 +33,11 @@ class ApiClient {
      * Overrides the default value set in spec file if present
      * @param {String} basePath
      */
-    constructor(basePath = 'http://localhost:3000/auth') {
+    constructor(basePath = 'https://auth-service-latest.onrender.com/auth') {
         /**
          * The base URL against which to resolve every API call's (relative) path.
          * @type {String}
-         * @default http://localhost:3000/auth
+         * @default https://auth-service-latest.onrender.com/auth
          */
         this.basePath = basePath.replace(/\/+$/, '');
 
@@ -592,7 +592,7 @@ class ApiClient {
     hostSettings() {
         return [
             {
-              'url': "http://localhost:3000/auth",
+              'url': "https://auth-service-latest.onrender.com/auth",
               'description': "No description provided",
             }
       ];

@@ -1,6 +1,6 @@
 # AuthService.DefaultApi
 
-All URIs are relative to *http://localhost:3000/auth*
+All URIs are relative to *https://auth-service-latest.onrender.com/auth*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
