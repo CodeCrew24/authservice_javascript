@@ -19,7 +19,7 @@ To publish the library as a [npm](https://www.npmjs.com/), please follow the pro
 Then install it via:
 
 ```shell
-npm install auth_service --save
+npm i codecrew_auth_service
 ```
 
 Finally, you need to build the module:
